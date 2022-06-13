@@ -1,6 +1,6 @@
 # DSM-TUI Documentation
  <img src="https://img.shields.io/badge/license-GPL-blue"
-            alt="service-test status"></a>
+            alt="service-test status">
 ##### Description
 
 **DSM-TUI** (***Decks Server Manager TUI***) is a **tool** that allows **server 
