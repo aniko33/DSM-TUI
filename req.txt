@@ -1,0 +1,5 @@
+cpuinfo
+rich
+textual
+psutil
+requests
