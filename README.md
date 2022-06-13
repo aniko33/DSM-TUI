@@ -11,13 +11,13 @@ in **Python** with **TUI** (***Terminal User Inteface***)
 
 - [Compatibility](https://github.com/aniko33/DSM-TUI/blob/main/README.md#compatibility)
   
-- - [Platforms](https://github.com/aniko33/DSM-TUI/blob/main/README.md#platforms)
+  - [Platforms](https://github.com/aniko33/DSM-TUI/blob/main/README.md#platforms)
     
   - [Python version](https://github.com/aniko33/DSM-TUI/blob/main/README.md#python-version)
     
 - [Download](https://github.com/aniko33/DSM-TUI/blob/main/README.md#download)
   
-- - [From source](https://github.com/aniko33/DSM-TUI/blob/main/README.md#from-source)
+  - [From source](https://github.com/aniko33/DSM-TUI/blob/main/README.md#from-source)
     
   - [From portable file](https://github.com/aniko33/DSM-TUI/blob/main/README.md#from-portable-file)
     
@@ -25,7 +25,7 @@ in **Python** with **TUI** (***Terminal User Inteface***)
   
 - [Notes](https://github.com/aniko33/DSM-TUI/blob/main/README.md#notes)
   
-- - [For users](https://github.com/aniko33/DSM-TUI/blob/main/README.md#for-users)
+  - [For users](https://github.com/aniko33/DSM-TUI/blob/main/README.md#for-users)
     
   - [For Developers](https://github.com/aniko33/DSM-TUI/blob/main/README.md#for-developers)
     
