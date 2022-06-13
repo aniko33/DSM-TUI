@@ -1,5 +1,6 @@
 # DSM-TUI Documentation
-
+ <img src="https://img.shields.io/circleci/project/github/badges/daily-tests?label=service%20tests"
+            alt="service-test status"></a>
 ##### Description
 
 **DSM-TUI** (***Decks Server Manager TUI***) is a **tool** that allows **server 
