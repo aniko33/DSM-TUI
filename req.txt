@@ -1,4 +1,4 @@
-cpuinfo
+py-cpuinfo
 rich
 textual
 psutil
