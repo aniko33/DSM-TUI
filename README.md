@@ -1,5 +1,5 @@
 # DSM-TUI Documentation
- <img src="https://img.shields.io/circleci/project/github/badges/daily-tests?label=service%20tests"
+ <img src="https://img.shields.io/badge/license-GPL-blue"
             alt="service-test status"></a>
 ##### Description
 
