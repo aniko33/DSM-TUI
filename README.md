@@ -8,27 +8,27 @@ in **Python** with **TUI** (***Terminal User Inteface***)
 
 ### Index
 
-- Compatibility
+- [Compatibility](https://github.com/aniko33/DSM-TUI/blob/main/README.md#compatibility)
   
-- - Platforms
+- - [Platforms](https://github.com/aniko33/DSM-TUI/blob/main/README.md#platforms)
     
-  - Python version
+  - [Python version](https://github.com/aniko33/DSM-TUI/blob/main/README.md#python-version)
     
-- Download
+- [Download](https://github.com/aniko33/DSM-TUI/blob/main/README.md#download)
   
-- - From source
+- - [From source](https://github.com/aniko33/DSM-TUI/blob/main/README.md#from-source)
     
-  - From portable file
+  - [From portable file](https://github.com/aniko33/DSM-TUI/blob/main/README.md#from-portable-file)
     
-- Usage
+- [Usage](https://github.com/aniko33/DSM-TUI/blob/main/README.md#usage)
   
-- Notes
+- [Notes](https://github.com/aniko33/DSM-TUI/blob/main/README.md#notes)
   
-- - For users
+- - [For users](https://github.com/aniko33/DSM-TUI/blob/main/README.md#for-users)
     
-  - For Developers
+  - [For Developers](https://github.com/aniko33/DSM-TUI/blob/main/README.md#for-developers)
     
-- Screenshot
+- [Screenshot](https://github.com/aniko33/DSM-TUI/blob/main/README.md#screenshot)
   
 
 ## Compatibility
@@ -77,7 +77,6 @@ wget && chmod +x dsm && sudo mv dsm /bin && echo now you can start DSM with the 
 ## Usage
 
 Using this tool is very easy just ***run the command***: `dsm`
-
 and an ***interface with various functions*** will be given.
 
 ## Notes
