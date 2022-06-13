@@ -59,6 +59,8 @@ because of the libraries it is better to ***keep version 3*** or **higher** or t
 git clone https://github.com/aniko33/DSM-TUI.git
 #open folder
 cd DSM-TUI
+#install req...
+pip install -r req.txt
 #creating the startup file on /bin
 chmod +x dsm && sudo mv dsm /bin
 echo now you can start DSM with the command: dsm
