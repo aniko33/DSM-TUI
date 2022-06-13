@@ -74,7 +74,7 @@ The compiled file was compiled with **Pyinstaller**.
 ##### How download from portable file
 
 ```bash
-wget && chmod +x dsm && sudo mv dsm /bin && echo now you can start DSM with the command: dsm
+wget https://github.com/aniko33/DSM-TUI/releases/download/v1.0-beta/dsm && chmod +x dsm && sudo mv dsm /bin && echo now you can start DSM with the command: dsm
 ```
 
 ## Usage
