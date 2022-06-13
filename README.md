@@ -1,7 +1,7 @@
 # DSM-TUI Documentation
  <img src="https://img.shields.io/badge/license-GPL-blue"
             alt="service-test status">
-##### Description
+### Description
 
 **DSM-TUI** (***Decks Server Manager TUI***) is a **tool** that allows **server 
 management** by viewing active services and server status. It is developed
@@ -88,7 +88,7 @@ and an ***interface with various functions*** will be given.
 
 This app ***needs to be connected to an <u>internet network</u>*** and must be able to ***connect to google.com or, in case, change the link***.
 
-## For developers
+### For developers
 
 there is ***no guide on reading the code and using it***, perhaps in the ***next versions there will be a documentation for developers***
 
