@@ -1,8 +1,15 @@
+<style>
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+</style>
 # DSM-TUI Documentation
- <img src="https://img.shields.io/badge/license-GPL-blue"
-            alt="service-test status">
-### Description
+<img src="https://img.shields.io/badge/license-GPL-blue" class="center" alt="service-test status">
 
+### Description
 **DSM-TUI** (***Decks Server Manager TUI***) is a **tool** that allows **server 
 management** by viewing active services and server status. It is developed
 in **Python** with **TUI** (***Terminal User Inteface***)
