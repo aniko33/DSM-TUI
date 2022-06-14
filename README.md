@@ -1,4 +1,4 @@
-# DSM-TUI Documentation
+<center><h1>DSM-TUI Documentation</hi></center>
 <p align="center">
   <img src="https://img.shields.io/badge/license-GPL-blue" class="center" alt="service-test status">
 </p>
