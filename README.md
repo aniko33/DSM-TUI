@@ -1,5 +1,5 @@
 # DSM-TUI Documentation
-<p aling="center">
+<p align="center">
   <img src="https://img.shields.io/badge/license-GPL-blue" class="center" alt="service-test status">
 </p>
 ### Description
