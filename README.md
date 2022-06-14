@@ -1,9 +1,8 @@
 <h1 align="center">DSM-TUI Documentation</hi>
-<p align="center">
-  [![License](https://img.shields.io/badge/License-GPL-blue)](#)
-  [![Release](https://img.shields.io/badge/Release-v1.0_beta-red)(https://github.com/aniko33/DSM-TUI/releases)
-  [![Platform](https://img.shields.io/badge/Platforms-Linux-yellow)(#)
-</p>
+
+[![License](https://img.shields.io/badge/License-GPL-blue)](#)
+[![Release](https://img.shields.io/badge/Release-v1.0_beta-red)](https://github.com/aniko33/DSM-TUI/releases)
+[![Platform](https://img.shields.io/badge/Platforms-Linux-yellow)](#)
 
 ### Description
 **DSM-TUI** (***Decks Server Manager TUI***) is a **tool** that allows **server 
