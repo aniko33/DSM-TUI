@@ -37,7 +37,7 @@ in **Python** with **TUI** (***Terminal User Inteface***)
     
 - [Screenshot](https://github.com/aniko33/DSM-TUI/blob/main/README.md#screenshot)
 
-- [Code](https://github.com/aniko33/DSM-TUI/blob/main/README.md#Code)
+- [Code](https://github.com/aniko33/DSM-TUI/blob/main/README.md#source-code)
   
 - [Contributors](https://github.com/aniko33/DSM-TUI/blob/main/README.md#Contributors)
 
