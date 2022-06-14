@@ -1,5 +1,7 @@
 <h1 align="center">DSM-TUI Documentation</hi>
+<div>
 ![Decks Server Manager TUI](https://user-images.githubusercontent.com/76649588/173510635-e12cfbea-890f-4862-a9c3-2065d11edff6.png)
+</div>
 [![License](https://img.shields.io/badge/License-GPL-blue)](#)
 [![Release](https://img.shields.io/badge/Release-v1.0_beta-red)](https://github.com/aniko33/DSM-TUI/releases)
 [![Platform](https://img.shields.io/badge/Platforms-Linux-yellow)](#)
