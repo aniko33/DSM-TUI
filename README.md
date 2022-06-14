@@ -1,11 +1,3 @@
-<style>
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
- }
-</style>
 # DSM-TUI Documentation
 <img src="https://img.shields.io/badge/license-GPL-blue" class="center" alt="service-test status">
 
