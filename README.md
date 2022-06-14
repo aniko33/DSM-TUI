@@ -36,6 +36,11 @@ in **Python** with **TUI** (***Terminal User Inteface***)
   - [For Developers](https://github.com/aniko33/DSM-TUI/blob/main/README.md#for-developers)
     
 - [Screenshot](https://github.com/aniko33/DSM-TUI/blob/main/README.md#screenshot)
+
+- [Code](https://github.com/aniko33/DSM-TUI/blob/main/README.md#Code)
+  
+- [Contributors](https://github.com/aniko33/DSM-TUI/blob/main/README.md#Contributors)
+
   
 
 ## Compatibility
