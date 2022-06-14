@@ -81,7 +81,7 @@ echo now you can start DSM with the command: dsm
 ###### Windows
 
 ```batch
-curl https://github.com/aniko33/DSM-TUI/blob/main/dsm-windows.py --output bsm.py && echo now you can start DSM with the command: python dsm.py 
+curl https://raw.githubusercontent.com/aniko33/DSM-TUI/main/dsm-windows.py --output bsm.py && echo now you can start DSM with the command: python dsm.py 
 ```
 
 ### From portable file
