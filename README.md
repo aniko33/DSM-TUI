@@ -46,7 +46,7 @@ in **Python** with **TUI** (***Terminal User Inteface***)
 
 ### Platforms
 
-##### Available platform: Linux and Windows.
+#### Available platform: Linux and Windows.
 
 We made ***Windows compatible*** and ***something in beta could not work***
 
