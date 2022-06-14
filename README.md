@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/License-GPL-blue)](#)
 [![Release](https://img.shields.io/badge/Release-v1.0_beta-red)](https://github.com/aniko33/DSM-TUI/releases)
-[![Platform](https://img.shields.io/badge/Platforms-Linux_and_Windows-yellow)](#)
+[![Platform](https://img.shields.io/badge/Platforms-Linux_and_Windows(beta)-yellow)](#)
 
 </div>
 
