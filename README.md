@@ -60,7 +60,7 @@ because of the libraries it is better to ***keep version 3*** or **higher** or t
 
 ### From source
 
-**Downloading the app from source** could be both a **bad idea** and a **good idea**, the *app could not go because of the **outdated libraries** or the **outdated program** =D*, instead it could be ***useful in case of problems in the code*** or even just to change it.
+**Downloading the app from source** could be both a **bad idea** and a **good idea**, the *app could not go because of the **outdated libraries** or the **outdated program***, instead it could be ***useful in case of problems in the code*** or even just to change it.
 
 ##### How download from source
 
