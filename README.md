@@ -2,9 +2,9 @@
 <img src="https://user-images.githubusercontent.com/76649588/173510635-e12cfbea-890f-4862-a9c3-2065d11edff6.png">
 <div align="center">
 
-[](#)
-[](https://github.com/aniko33/DSM-TUI/releases)
-[](#)
+[![License](https://img.shields.io/badge/License-GPL-blue)](#)
+[![Release](https://img.shields.io/badge/Release-v1.0_beta-red)](https://github.com/aniko33/DSM-TUI/releases)
+[![Platform](https://img.shields.io/badge/Platforms-Linux-yellow)](#)
 
 </div>
 
@@ -19,29 +19,28 @@ in **Python** with **TUI** (***Terminal User Inteface***)
 - [Compatibility](https://github.com/aniko33/DSM-TUI/blob/main/README.md#compatibility)
   
   - [Platforms](https://github.com/aniko33/DSM-TUI/blob/main/README.md#platforms)
-    
+  
   - [Python version](https://github.com/aniko33/DSM-TUI/blob/main/README.md#python-version)
-    
+
 - [Download](https://github.com/aniko33/DSM-TUI/blob/main/README.md#download)
   
   - [From source](https://github.com/aniko33/DSM-TUI/blob/main/README.md#from-source)
-    
-  - [From portable file](https://github.com/aniko33/DSM-TUI/blob/main/README.md#from-portable-file)
-    
-- [Usage](https://github.com/aniko33/DSM-TUI/blob/main/README.md#usage)
   
+  - [From portable file](https://github.com/aniko33/DSM-TUI/blob/main/README.md#from-portable-file)
+
+- [Usage](https://github.com/aniko33/DSM-TUI/blob/main/README.md#usage)
+
 - [Notes](https://github.com/aniko33/DSM-TUI/blob/main/README.md#notes)
   
   - [For users](https://github.com/aniko33/DSM-TUI/blob/main/README.md#for-users)
-    
+  
   - [For Developers](https://github.com/aniko33/DSM-TUI/blob/main/README.md#for-developers)
-    
+
 - [Screenshot](https://github.com/aniko33/DSM-TUI/blob/main/README.md#screenshot)
-  
+
 - [Code](https://github.com/aniko33/DSM-TUI/blob/main/README.md#source-code)
-  
+
 - [Contributors](https://github.com/aniko33/DSM-TUI/blob/main/README.md#Contributors)
-  
 
 ## Compatibility
 
