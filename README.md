@@ -1,7 +1,9 @@
 <h1 align="center">DSM-TUI Documentation</hi>
 <p align="center">
   !["https://img.shields.io/badge/License-GPL-blue"](#)
+  
   !["https://img.shields.io/badge/Release-v1.0_beta-red"](https://github.com/aniko33/DSM-TUI/releases)
+  
   !["https://img.shields.io/badge/Platforms-Linux-yellow"](#)
 </p>
 
