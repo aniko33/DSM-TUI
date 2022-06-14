@@ -3,7 +3,7 @@
 <div align="center">
 
 [![License](https://img.shields.io/badge/License-GPL-blue)](#)
-[![Release](https://img.shields.io/badge/Release-v1.0_beta-red)](https://github.com/aniko33/DSM-TUI/releases)
+[![Release](https://img.shields.io/badge/Release-v2.0_beta-red)](https://github.com/aniko33/DSM-TUI/releases)
 [![Platform](https://img.shields.io/badge/Platforms-Linux_and_Windows(beta)-orange)](#)
 
 </div>
@@ -92,7 +92,7 @@ The compiled file was compiled with **Pyinstaller**.
 ##### How download from portable file (only Linux)
 
 ```bash
-wget https://github.com/aniko33/DSM-TUI/releases/download/v1.0-beta/dsm && chmod +x dsm && sudo mv dsm /bin && echo now you can start DSM with the command: dsm
+wget https://github.com/aniko33/DSM-TUI/releases/download/v2.0-beta/dsm && chmod +x dsm && sudo mv dsm /bin && echo now you can start DSM with the command: dsm
 ```
 
 ## Usage
