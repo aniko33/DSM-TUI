@@ -102,3 +102,8 @@ there is ***no guide on reading the code and using it***, perhaps in the ***next
 ![image](https://user-images.githubusercontent.com/76649588/173388846-7d874fad-008e-4005-abb3-379deccce3c9.png)
 ![image](https://user-images.githubusercontent.com/76649588/173388920-46ef8cde-72d1-4fa7-bc89-9a6249d458fc.png)
 
+## Contributors
+
+<a href="https://github.com/aniko33/DMS-TUI/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=aniko33/DMS-TUI" />
+</a>
