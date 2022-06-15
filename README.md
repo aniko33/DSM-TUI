@@ -123,6 +123,11 @@ there is ***no guide on reading the code and using it***, perhaps in the ***next
 
 ## Contributors
 
-<a href="https://github.com/aniko33/DMS-TUI/graphs/contributors">
+<!--<a href="https://github.com/aniko33/DMS-TUI/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=aniko33/DMS-TUI" />
-</a>
+</a> -->
+
+<p>
+  Sibriex (Discord > Sibriex#7984)
+  Ares Amigos (Discord > Ares Amigos#2932)
+</p>
