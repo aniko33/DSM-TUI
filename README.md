@@ -127,7 +127,5 @@ there is ***no guide on reading the code and using it***, perhaps in the ***next
   <img src="https://contributors-img.web.app/image?repo=aniko33/DMS-TUI" />
 </a> -->
 
-<p>
-  Sibriex (Discord > Sibriex#7984)
-  Ares Amigos (Discord > Ares Amigos#2932)
-</p>
+Sibriex (Discord > Sibriex#7984)
+Ares Amigos (Discord > Ares Amigos#2932)
