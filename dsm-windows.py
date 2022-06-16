@@ -3,6 +3,7 @@ import cpuinfo
 import shutil
 from rich import box
 import subprocess
+import ctypes
 from rich.pretty import Pretty
 import time
 from rich import print
@@ -35,8 +36,6 @@ class network(Widget):
         ip=requests.get("http://ifconfig.me")
         geo=requests.get("http://ip-api.com/json/?fields=61439")
         geo=json.loads(geo.text)
-        info=platform.freedesktop_os_release()
-        distro=info["ID"]
         cpu=cpuinfo.get_cpu_info()
         users=subprocess.getoutput("net users")
         cpu_brand=cpu["brand_raw"]
@@ -44,10 +43,9 @@ class network(Widget):
         codeip=geo["countryCode"]
         return Panel(f"""[yellow]Public IP[/yellow] > [cyan]{ip.text}[/cyan]\n[yellow]Location[/yellow] > [cyan]{geoip}[/cyan] ([purple]{codeip}[/purple])"
 [yellow]OS[/yellow] > [cyan]{platform.system()}[/cyan]
-[yellow]Distro > [/yellow][cyan]{distro}[/cyan]
 [yellow]CPU[/yellow] > [cyan]{cpu_brand}[/cyan]
-[yellow]---Users---[/yellow]\n[cyan]{users}[/cyan]
-""",title="Network & Info")
+[yellow]---Users---[/yellow]
+[cyan]{users}[/cyan]""",title="Network & Info")
 class console(Widget):
     def on_mount(self):
         self.set_interval(1,self.refresh)
@@ -93,7 +91,6 @@ class memory(Widget):
         net_io = psutil.net_io_counters()
         for x in partitions:
             fstype=x.fstype
-        import ctypes
         lib = ctypes.windll.kernel32
         t = lib.GetTickCount64()
         t = int(str(t)[:-3])
@@ -140,8 +137,9 @@ class Ux(App):
         await self.view.dock(pie(), edge="bottom", size=3)
         scroll_view1=ScrollView(contents=memory(),auto_width=True)
         scroll_view2=ScrollView(contents=network(),auto_width=True,gutter=(1,1))
-        await self.view.dock(scroll_view2, edge="right", size=30)
-        await self.view.dock(scroll_view1,edge="left",size=40)
+        #ho tolto scroll_view
+        await self.view.dock(memory(), edge="right", size=30)
+        await self.view.dock(network(),edge="left",size=40)
         scroll_view = ScrollView(contents=service(), auto_width=True)
         await self.view.dock(scroll_view,edge="top")
 url = "http://google.com"
