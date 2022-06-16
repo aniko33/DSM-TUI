@@ -81,7 +81,10 @@ echo now you can start DSM with the command: dsm
 ###### Windows
 
 ```batch
-curl https://raw.githubusercontent.com/aniko33/DSM-TUI/main/dsm-windows.py --output dsm.py && curl https://raw.githubusercontent.com/aniko33/DSM-TUI/main/req.txt --onefile req.txt && pip install -r req.txt && echo now you can start DSM with the command: python dsm.py 
+curl https://raw.githubusercontent.com/aniko33/DSM-TUI/main/dsm-windows.py --output dsm.py
+curl https://raw.githubusercontent.com/aniko33/DSM-TUI/main/req.txt --onefile req.txt
+pip install -r req.txt
+echo now you can start DSM with the command: python dsm.py 
 ```
 
 ### From portable file
@@ -92,7 +95,10 @@ The compiled file was compiled with **Pyinstaller**.
 ##### How download from portable file (only Linux)
 
 ```bash
-wget https://github.com/aniko33/DSM-TUI/releases/download/v1.0/dsm && chmod +x dsm && sudo mv dsm /bin && echo now you can start DSM with the command: dsm
+wget https://github.com/aniko33/DSM-TUI/releases/download/v1.0/dsm
+chmod +x dsm
+sudo mv dsm /bin
+echo now you can start DSM with the command: dsm
 ```
 
 ## Usage
