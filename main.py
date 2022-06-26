@@ -32,18 +32,30 @@ class title(Widget):
 
 class network(Widget):
     def render(self) -> Panel:
+        #Request for get IP public
         ip=requests.get("http://ifconfig.me")
+        #Request for getting IP info
         geo=requests.get("http://ip-api.com/json/?fields=61439")
+        #Load json
         geo=json.loads(geo.text)
+        #Get uptime PC 
         uptime=subprocess.getoutput("uptime -p")
+        #Get info from distro Linux
         info=platform.freedesktop_os_release()
+        #Linux Like (distro)
         distro=info["ID"]
+        #Init cpuinfo
         cpu=cpuinfo.get_cpu_info()
+        #Shell command for getting users on your PC
         users=subprocess.getoutput("cut -d: -f1 /etc/passwd")
+        #Brand exaple > Intel, AMD
         cpu_brand=cpu["brand_raw"]
+        #Get IP info using ip-api.com 
         geoip=geo["country"]
         codeip=geo["countryCode"]
-        return Panel(f"""[yellow]Public IP[/yellow] > [cyan]{ip.text}[/cyan]\n[yellow]Location[/yellow] > [cyan]{geoip}[/cyan] ([purple]{codeip}[/purple])"
+        isp=geo["isp"]
+        return Panel(f"""[yellow]Public IP[/yellow] > [cyan]{ip.text}[/cyan]\n[yellow]Location[/yellow] > [cyan]{geoip}[/cyan] ([purple]{codeip}[/purple])
+[yellow]ISP[/yellow] > [cyan]{isp}[/cyan]
 [yellow]OS[/yellow] > [cyan]{platform.system()}[/cyan]
 [yellow]Distro > [/yellow][cyan]{distro}[/cyan]
 [yellow]CPU[/yellow] > [cyan]{cpu_brand}[/cyan]
@@ -65,6 +77,9 @@ class memory(Widget):
     def on_mount(self):
         self.set_interval(3,self.refresh)
     def render(self) -> Panel:
+        """
+        Trasfrom byte > K,M,G,T,P
+        """
         def get_size(bytes, suffix="B"):
             factor = 1024
             for unit in ["", "K", "M", "G", "T", "P"]:
@@ -83,12 +98,14 @@ class memory(Widget):
         used=int(used)
         free=int(free)
 
+        #Printing
         if used < 30:
             storage=(f"[cyan]Used[/cyan] > [green]({uz} GB) {used}%[/green]\n[cyan]Free[/cyan] > [green]({fz} GB) {free}%[/green]")
         elif used > 30:
             storage=(f"[cyan]Used[/cyan] > [yellow]({uz} GB) {used}%[/yellow]\n[cyan]Free[/cyan] > [yelllow]({fz} GB) {free}[/yellow]%")
         elif used > 60:
             storage=(f"[cyan]Used[/cyan] > [red]({uz} GB) {used}%[/red]\n[cyan]Free[/cyan] > [red]({fz}) {free}[/red]")
+        #init varible
         cpufreq = psutil.cpu_freq()
         partitions = psutil.disk_partitions()
         net_io = psutil.net_io_counters()
@@ -126,16 +143,20 @@ class memory(Widget):
 [cyan]Uptime[/cyan] > [magenta]{uptime}[/magenta]""",title='Server status')
 class Ux(App):
     async def on_load(self,event):
+        #keymap
         await self.bind("q","quit")
     async def on_mount(self) -> None:
+        #window location
         await self.view.dock(title(), edge="top", size=3)
         await self.view.dock(pie(), edge="bottom", size=3)
+        #add scrolling
         scroll_view1=ScrollView(contents=memory(),auto_width=True)
         scroll_view2=ScrollView(contents=network(),auto_width=True,gutter=(1,1))
         await self.view.dock(scroll_view2, edge="right", size=30)
         await self.view.dock(scroll_view1,edge="left",size=40)
         scroll_view = ScrollView(contents=service(), auto_width=True)
         await self.view.dock(scroll_view,edge="top")
+#Pinging google.com for verify internet location
 url = "http://google.com"
 timeout = 5
 try:
