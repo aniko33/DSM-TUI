@@ -41,7 +41,9 @@ class network(Widget):
         cpu_brand=cpu["brand_raw"]
         geoip=geo["country"]
         codeip=geo["countryCode"]
+        isp=geo['isp']
         return Panel(f"""[yellow]Public IP[/yellow] > [cyan]{ip.text}[/cyan]\n[yellow]Location[/yellow] > [cyan]{geoip}[/cyan] ([purple]{codeip}[/purple])"
+[yellow]ISP[/yellow] > [cyan]{isp}[/cyan]
 [yellow]OS[/yellow] > [cyan]{platform.system()}[/cyan]
 [yellow]CPU[/yellow] > [cyan]{cpu_brand}[/cyan]
 [yellow]---Users---[/yellow]
