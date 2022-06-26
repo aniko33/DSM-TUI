@@ -3,7 +3,7 @@
 <div align="center">
 
 [![License](https://img.shields.io/badge/License-GPL-blue)](#)
-[![Release](https://img.shields.io/badge/Release-v1.0-red)](https://github.com/aniko33/DSM-TUI/releases)
+[![Release](https://img.shields.io/badge/Release-v1.1-red)](https://github.com/aniko33/DSM-TUI/releases)
 [![Platform](https://img.shields.io/badge/Platforms-Linux_and_Windows(beta)-orange)](#)
 
 </div>
@@ -37,8 +37,6 @@ in **Python** with **TUI** (***Terminal User Inteface***)
   - [For Developers](https://github.com/aniko33/DSM-TUI/blob/main/README.md#for-developers)
 
 - [Screenshot](https://github.com/aniko33/DSM-TUI/blob/main/README.md#screenshot)
-
-- [API](https://github.com/aniko33/DSM-TUI/blob/main/README.md#API)
 
 - [Contributors](https://github.com/aniko33/DSM-TUI/blob/main/README.md#Contributors)
 
@@ -120,12 +118,6 @@ there is ***no guide on reading the code and using it***, perhaps in the ***next
 
 ![image](https://user-images.githubusercontent.com/76649588/173388846-7d874fad-008e-4005-abb3-379deccce3c9.png)
 ![image](https://user-images.githubusercontent.com/76649588/173388920-46ef8cde-72d1-4fa7-bc89-9a6249d458fc.png)
-
-## API
-
-### work in progress
-
-![carbon](https://user-images.githubusercontent.com/76649588/173517936-ba6224a7-437f-47fd-8b29-b353fadb32b7.png)
 
 ## Contributors
 
