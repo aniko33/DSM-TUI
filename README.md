@@ -91,11 +91,10 @@ echo now you can start DSM with the command: python dsm.py
 The compiled file was compiled with **Pyinstaller**.
 
 ##### How download from portable file (only Linux)
-
 ```bash
-wget https://github.com/aniko33/DSM-TUI/releases/download/v1.0/dsm
-chmod +x dsm
-sudo mv dsm /bin
+wget https://github.com/aniko33/DSM-TUI/releases/download/v1.1/dsmcom
+chmod +x dsmcom
+sudo mv dsmcom /bin/dsm
 echo now you can start DSM with the command: dsm
 ```
 
