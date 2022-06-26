@@ -80,7 +80,7 @@ echo now you can start DSM with the command: dsm
 
 ```batch
 curl https://raw.githubusercontent.com/aniko33/DSM-TUI/main/dsm-windows.py --output dsm.py
-curl https://raw.githubusercontent.com/aniko33/DSM-TUI/main/req.txt --onefile req.txt
+curl https://raw.githubusercontent.com/aniko33/DSM-TUI/main/req.txt --output req.txt
 pip install -r req.txt
 echo now you can start DSM with the command: python dsm.py 
 ```
