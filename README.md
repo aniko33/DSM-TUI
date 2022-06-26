@@ -73,6 +73,9 @@ cd DSM-TUI
 pip install -r req.txt
 #creating the startup file on /bin
 chmod +x dsm && sudo mv dsm /bin
+echo remove DSM-TUI folder...
+cd..
+rm -rf DSM-TUI
 echo now you can start DSM with the command: dsm
 ```
 
